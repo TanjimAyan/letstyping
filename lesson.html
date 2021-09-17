@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>This Website Is Based On Online Courses</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="font/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="jquery-tab/jquery.atAccordionOrTabs.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <a href="lesson_list.html"><div class="back_btn">Back</div></a>
+
+  <div class="lesson_end_msg_container d-none">
+    <div class="lesson_end_msg">
+      <img src="images/smile.png">
+      <h4 class="mb-4">Congratulations! You Have Completed The Level!</h4>
+      <div class="btn_wrapper">
+        <a href="" class="me-4 current_btn">Play again</a>
+        <a href="" class="end_msg_next_btn">Next level</a>
+      </div>
+    </div>
+  </div>
+  <div class="disp_wrapper">
+    <p></p>
+    <textarea></textarea>
+  </div>
+
+  <div class="next_btn_wrapper">
+  <button class="start_btn">Start</button>
+  <button class="next_btn d-none">Next</button>
+  </div>
+
+  <div class="img-wrapper">
+    <!-- <img src="images2/keyboard.png"> -->
+    <img src="images2/f.png">
+    <div class="keyboard">
+
+      <div class="keyRow1">
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">~</div>
+          <div>`</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">!</div>
+          <div>1</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">@</div>
+          <div>2</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">#</div>
+          <div>3</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">$</div>
+          <div>4</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">%</div>
+          <div>5</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">^</div>
+          <div>6</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">&</div>
+          <div>7</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">*</div>
+          <div>8</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">(</div>
+          <div>9</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">)</div>
+          <div>0</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">_</div>
+          <div>-</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">+</div>
+          <div>=</div>
+        </div>
+        <div class="key size1" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">Backspace</div>
+          <div><i class="fa fa-arrow-left"></i></div>
+        </div>
+      </div>
+      <div class="keyRow1">
+        <div class="key size1">Tab</div>
+        <div class="key q">Q</div>
+        <div class="key w">W</div>
+        <div class="key e">E</div>
+        <div class="key r">R</div>
+        <div class="key t">T</div>
+        <div class="key y">Y</div>
+        <div class="key u">U</div>
+        <div class="key i">I</div>
+        <div class="key o">O</div>
+        <div class="key p">P</div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div>{</div>
+          <div>[</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div>}</div>
+          <div>]</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div>|</div>
+          <div>\</div>
+        </div>
+      </div>
+      <div class="keyRow1">
+        <div class="key size2">Caps Lock</div>
+        <div class="key a">A</div>
+        <div class="key s">S</div>
+        <div class="key d">D</div>
+        <div class="key f">F</div>
+        <div class="key g">G</div>
+        <div class="key h">H</div>
+        <div class="key j">J</div>
+        <div class="key k">K</div>
+        <div class="key l">L</div>
+        <div class="key semiColon_colon" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">:</div>
+          <div>;</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">"</div>
+          <div>'</div>
+        </div>
+        <div class="key size2">Enter</div>
+      </div>
+      <div class="keyRow1">
+        <div class="key size3">Shift <i class="fa fa-arrow-up ms-1"></i></div>
+        <div class="key z">Z</div>
+        <div class="key x">X</div>
+        <div class="key c">C</div>
+        <div class="key v">V</div>
+        <div class="key b">B</div>
+        <div class="key n">N</div>
+        <div class="key m">M</div>
+        <div class="key comma" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block"><</div>
+          <div>,</div>
+        </div>
+        <div class="key period" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">></div>
+          <div>.</div>
+        </div>
+        <div class="key" style="display:flex;flex-direction:column;">
+          <div class="d-none d-md-block">?</div>
+          <div>/</div>
+        </div>
+        <div class="key size3">Shift <i class="fa fa-arrow-up ms-1"></i></div>
+      </div>
+      <div class="keyRow1">
+        <div class="key">Ctrl</div>
+        <div class="key"><i class="fa fa-windows" aria-hidden="true"></i></div>
+        <div class="key size2">Alt</div>
+        <div class="key size4 spacebar"></div>
+        <div class="key size2">Alt</div>
+        <div class="key"><i class="fa fa-windows" aria-hidden="true"></i></div>
+        <div class="key">Ctrl</div>
+      </div>
+
+    </div>
+
+    <div class="keyboard_bottom">
+      <div class="touch_pad"></div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+ <script src="jquery-tab/jquery.bbq.js"></script>
+<script type="text/javascript" src="scroll_disable.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
